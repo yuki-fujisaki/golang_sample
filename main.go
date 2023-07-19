@@ -1,7 +1,8 @@
 package main
 
-import (
-)
+type Message struct {
+	Message string `json:"message"`
+}
 
 func main() {
 }
